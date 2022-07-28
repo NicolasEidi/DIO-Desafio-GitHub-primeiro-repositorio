@@ -1,0 +1,32 @@
+Entrar em uma pasta pelo terminal Git:
+cd (nome da pasta)
+
+Sair de uma pasta e ir para a anterior:
+cd ..
+
+criar uma pasta:
+mkdir (nome da pasta)
+
+excluir um arquivo depois de commitar:
+git rm (nome do arquivo)
+
+listar todos os items dentro da pasta:
+ls (Linux e Git)
+dir (Windows e Git)
+
+status do arquivo:
+git status
+
+trakear um arquivo:
+git add (nome da pasta ou arquivo)
+git add . (adiciona todos os arquivos)
+
+para commitar:
+git commit -m "texto" (-m para comentar "string para escrever comentario")
+
+para enviar para núvem:
+git push origin main
+
+Baixar repositório pelo Git Bash:
+git clone (link HTTPS)
+
